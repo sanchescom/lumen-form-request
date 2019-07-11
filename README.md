@@ -33,15 +33,15 @@ class StoreRequest extends FormRequest
 
 	public function rules()
 	{
-		return [
-            'name' => 'required|max:255',
-            'last_name' => 'required|max:255',
-            'email' => 'required|unique:users|email|max:100',
-            'password' => 'required|max:45',
-        ];
+            return [
+                'name' => 'required|max:255',
+                'last_name' => 'required|max:255',
+                'email' => 'required|unique:users|email|max:100',
+                'password' => 'required|max:45',
+            ];
 	}
 }
 ```
 
-[Laravel Form Request documentation](https://laravel.com/docs/5.4/validation#available-validation-rules)
+[Laravel Form Request documentation](https://laravel.com/docs/5.8/validation#available-validation-rules)
 
