@@ -8,7 +8,7 @@
         "form",
         "request"
     ],
-    "homepage": "https://github.com/sanchescom/laravel-form-request",
+    "homepage": "https://github.com/sanchescom/lumen-form-request",
     "license": "MIT",
     "authors": [
         {
